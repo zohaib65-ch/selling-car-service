@@ -1,0 +1,52 @@
+@import "./globals.scss";
+.login-banner {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+}
+.login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  color: $white-color;
+}
+.input-box {
+  background: $white-color;
+  padding: 0px 10px;
+  width: 320px;
+}
+.car-selling-input {
+  border: none;
+  height: 40px;
+  border-radius: 0px;
+}
+.car-selling-input:focus {
+  box-shadow: none;
+  outline: none;
+}
+.car-selling-input::placeholder {
+  font-weight: 200;
+  font-size: 14px;
+}
+.login-btn {
+  background: $secondary-color;
+  color: $white-color;
+  border-radius: 0px;
+  width: 100px;
+}
+.login-btn:hover {
+  cursor: pointer;
+  background: transparent;
+  //   color: black;
+}
+
+.email-icon {
+  font-size: 22px;
+  color: $secondary-color;
+}
+.lock-icon {
+  font-size: 22px;
+  color: $secondary-color;
+}
